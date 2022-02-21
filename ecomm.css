@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto+Serif:wght@100&family=Roboto:ital,wght@0,400;1,100&display=swap');
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+  
+    
+}
+
+    
+  
+    
+  
+  
+  
+  a:hover{
+    color:black;
+  }
+  
+  .homme{
+   
+    display: none;
+    background: white;
+    padding: 20px;
+    color: black;
+    left: 900px;
+    flex-direction: column;
+  }
+  
+  
+   .navbar li:nth-child(1):hover  .homme{ 
+     display: flex;
+     position: absolute; 
+    color: blueviolet;
+  
+   }
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width:600px ;
+    margin-left: 20px;
+   
+   
+
+    
+}
+.navbar li{
+    list-style: none;
+    font-size: 25px;
+   
+}
+
+
+a{
+    text-decoration: none;
+}
+.shopinghomme{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px ;
+   
+   margin-bottom: 150px;
+    
+}
+.article1{
+    border:1px solid black ;
+    padding: 10px;
+    border-radius: 1rem;
+   
+    
+}
+.ligne{
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.coeur{
+    display: flex;
+    justify-content: space-between;
+}
+
+#col{
+    text-align: center;
+    
+    font-weight: bold;
+
+}
+#total{
+    width: 900px;
+   margin-right: 300px;
+   margin-left:200px ;
+   padding: 10px;
+   font-size: 30px;
+   border-radius: 20px;
+  margin-bottom: 50px;
+  margin-bottom: 90px;
+  
+}
+button{
+    outline: none;
+    border: none;
+    background-color: #00599c;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+button:hover{
+    transform: scale(1.04);
+    background: #000000;
+}
